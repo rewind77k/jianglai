@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post" enctype="multipart/form-data" action="/orm/">
+    {% csrf_token %}
+    <div class="form-group">
+    <input type="file" name="exc"></div>
+    <input type="submit" value="上传" class="btn btn-info btn-sm">
+</form>
+</body>
+</html>

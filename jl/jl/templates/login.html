@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Jianglai_login</title>
+</head>
+<body>
+<h1>用户登录</h1>
+<form method="POST" action="/App/">
+    {% csrf_token %}
+    <input type="text" name="user" placeholder="用户名"><br>
+    <input type="password" name="pwd" placeholder="密码"><br>
+    <input type="submit" value="提交"/><br>
+    <span style="color: red;">{{ error_msg }}</span>
+</form>
+
+</body>
+</html>

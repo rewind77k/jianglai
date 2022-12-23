@@ -1,0 +1,32 @@
+/* 全局样式表 */
+html,body,#app{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: none;
+    background: #ececf4;
+}
+.el-card{
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15) !important ;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    margin: auto;
+}
+.el-table deep/el-table-column { 
+    margin-top: 3px;
+}
+.el-pagination{
+    margin-top: 15px;
+}
+.el-input{
+    margin-top: 15px;
+}
+.el-button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.el-descriptions{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
